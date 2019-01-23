@@ -10,4 +10,8 @@ class Author
     @posts << post
     post.artist = self
   end
+
+  def add_post_by_title(title)
+
+  end
 end
